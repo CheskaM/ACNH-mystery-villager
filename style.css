@@ -1,0 +1,7 @@
+*{
+    background-color: #acd8a7;
+}
+
+@media (max-width: 600px) {
+    /*You can put whatever you want in here that's scales down or up*/
+}
