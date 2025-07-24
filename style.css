@@ -2,6 +2,46 @@
     background-color: #acd8a7;
 }
 
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tan;
+}
+
+.chosen-villager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+/* Major Breakpoint */
+
 @media (max-width: 600px) {
-    /*You can put whatever you want in here that's scales down or up*/
+    /*You can put whatever you want in here that's scales down or up / mobile device view*/
+
+    .wrapper-main{
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) {
+    /*You can put whatever you want in here that's scales down or up / tablet device view*/
+
+    .wrapper-main{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    /*You can put whatever you want in here that's scales down or up / tablet device view*/
+
+    .wrapper-main{
+        width: 100%;
+    }
 }
